@@ -5,6 +5,7 @@
     padding: 20% 2%;
     position:relative;
     z-index:1;
+    background-attachment: fixed;
 }
 
 #banner::after{
@@ -22,11 +23,25 @@
 #banner h1{
     color:white;
     position:relative;
+    font-size:4rem;
 }
 
 .bg-dark{
     background-color:transparent !important;
 }
+
+.zoom{
+    overflow: hidden;
+}
+
+.zoom img{
+    transition: 0.5s ease;
+}
+
+.zoom:hover img{
+    transform: scale(1.5);
+}
+
 
 
 
