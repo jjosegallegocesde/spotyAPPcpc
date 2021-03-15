@@ -42,6 +42,11 @@
     transform: scale(1.5);
 }
 
+.descripcion{
+    font-family: 'Titillium Web', sans-serif;
+    font-size:1.2rem;
+}
+
 
 
 
