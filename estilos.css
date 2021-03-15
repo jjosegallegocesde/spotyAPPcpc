@@ -1,3 +1,4 @@
+
 #banner{
 
     background-image: url(img/cpc.jpg);
@@ -47,7 +48,9 @@
     font-size:1.2rem;
 }
 
-
+.fondoIcono{
+    color:black;
+}
 
 
 
