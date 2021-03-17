@@ -14,7 +14,7 @@
 
     <header>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="menu">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Navbar</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,8 +54,8 @@
           <section id="banner">
 
             <div>
-               <h1>BIENVENIDOS</h1>
-               <a href="" class="btn btn-info">Conoce más</a> 
+               <h1 id="titulo" class="">BIENVENIDOS</h1>
+               <a href="#nombre1" class="btn btn-info">Conoce más</a> 
             </div>
 
           </section>
@@ -68,26 +68,23 @@
         <div class="row mt-5 mb-5">
           
           <div class="col-4">
-            <div class="zoom">
-              <img src="img/foto.PNG" alt="integrante1" class="img-fluid w-100">
+            <div class="zoom2">
+              <img src="img/foto.PNG" alt="integrante1" class="img-fluid w-100" id="foto1">
             </div>
           </div>
 
           <div class="col-8 align-self-center descripcion">
-            <h3>Juan José Gallego Mesa</h3>
+            <h3 id="nombre1">Juan José Gallego Mesa</h3>
             <p>
               "Mi nombre es Juan José Gallego Mesa, soy ingeniero electrónico de la Universidad de Antioquia e ingeniero de Telecomunicaciones del Instituto tecnológico metropolitano, cuento con una especialización en formulación y evaluación de proyectos de esta misma institución y distintos seminarios y diplomados en pedagogía. Me apasionan el desarrollo de software y la docencia desde muy joven, teniendo la oportunidad de aplicar mis conocimientos en instituciones como: Seguros Sura, el servicio nacional de aprendizaje-SENA, el metro de Medellín y la secretaría de educación de Medellín."
-              
              <span>
                <br>
+               <a href="">
+                <i class="fab fa-twitter fa-lg fondoIcono"></i>
+              </a>
                 <a href="https://www.instagram.com/juan_gallegom/?hl=es-la" target="_BLANK">
                   <i class="fab fa-instagram fa-lg fondoIcono"></i>
                 </a>
-                <a href="">
-                  <i class="fab fa-twitter fa-lg fondoIcono"></i>
-                </a>
-               
-
              </span>
 
             </p>
@@ -97,9 +94,18 @@
         <div class="row mt-5 mb-5">
 
           <div class="col-8 align-self-center descripcion">
-            <h3>MARTHA NIELSEN</h3>
-            <p>
+            <h3 class="text-end">MARTHA NIELSEN</h3>
+            <p class="text-end">
               "Martha Nielsen es la hija de Ulrich y Katharina Nielsen, y la hermana de Magnus y Mikkel Nielsen. Sale con Bartosz y, a la vez, tiene una aventura con Jonas Kahnwald durante un tiempo. Martha creció en Winden, asiste a la escuela secundaria Winden. As a teenager, Martha is a sensitive girl who has a passion for acting and seemingly political activism as well.[1][4] She once goes on a hunger strike to protest child hunger in Africa. Also within the realm of politics, she seems to be somewhat conspiratorial, as well as antiestablishment, or at least anti-nuclear energy. She believes a nuclear-power mafia keeps things hidden from the public to protect the image of the nuclear power plant, for which she is ridiculed by her brother.[4] To her credit, it eventually comes to light that the power plant has been hiding damaging information from the public for over thirty years."
+              <span>
+                <br>
+                <a href="">
+                 <i class="fab fa-twitter fa-lg fondoIcono"></i>
+               </a>
+                 <a href="https://www.instagram.com/juan_gallegom/?hl=es-la" target="_BLANK">
+                   <i class="fab fa-instagram fa-lg fondoIcono"></i>
+                 </a>
+              </span>
             </p>
           </div>
           <div class="col-4">
@@ -108,21 +114,37 @@
             </div>
           </div>
         </div>
-
-
-
-
       </div>
 
     </main>
 
 
 
-    <footer>
+    <footer class="fondoFooter text-white">
+
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="col-6 descripcion text-end p-5">
+              <p>Lostressopleteros&copy;</p>
+              <p>Colegio-carmelitano</p>
+              <p>Bello-Antioquía</p>
+              <p>2021</p>
+
+            </div>
+            <div class="col-6 p-5 border-start align-self-center">
+              <a href=""><i class="fab fa-mailchimp fa-3x fondoIcono2"></i></a>
+              <a href=""><i class="fab fa-whatsapp fa-3x fondoIcono2"></i></a>
+              <p>Cl 57 # 62-34 Colegio-carmelitano</p>
+            </div>
+
+          </div>
+        </div>
 
     </footer>
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/3675f85246.js" crossorigin="anonymous"></script> 
+    <script src="https://kit.fontawesome.com/3675f85246.js" crossorigin="anonymous"></script>
+    <script src="cambioMenu.js"></script> 
 </body>
 </html>
