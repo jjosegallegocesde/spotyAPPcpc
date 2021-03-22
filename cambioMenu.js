@@ -10,7 +10,7 @@ function cambiarColor(){
 
     let menu=document.getElementById("menu");
 
-    if(document.body.scrollTop||document.documentElement.scrollTop==0){
+    if(document.body.scrollTop||document.documentElement.scrollTop==0.){
 
         menu.classList.add("bg-dark");
         menu.classList.remove("fondo2");
