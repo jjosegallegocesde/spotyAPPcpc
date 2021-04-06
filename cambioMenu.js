@@ -20,5 +20,6 @@ function cambiarColor(){
         menu.classList.remove("bg-dark");
     }
 
+    //comentario
 }
 
