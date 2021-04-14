@@ -26,8 +26,6 @@ function seleccionarInformacion(datos){
     console.log(datos.tracks[0].preview_url); //MP3 cancion
     console.log(datos.tracks[0].name); //nombre cancion
 
-    
-
     let cancion=document.getElementById("cancion1");
     cancion.src=datos.tracks[0].preview_url;
 
